@@ -11,6 +11,7 @@ Note: Whitespace is skipped over.
 The settings for the shift word and message are in the Main function.
 
 Created by Dexter.
+Python 3.6
 """
 
 import string

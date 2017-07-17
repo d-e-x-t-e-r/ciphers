@@ -5,6 +5,7 @@ chosen amount.
 The settings for the shift amount and message are in the Main function.
 
 Created by Dexter.
+Python 3.6
 """
 
 import string
