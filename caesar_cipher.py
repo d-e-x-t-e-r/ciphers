@@ -22,7 +22,7 @@ def encrypt(message, shift):
 
 				# Ensures proper wrap around.
 				if mes_ind + shift > 25:
-					mes_ind = mes_ind - 26
+					mes_ind -= 26
 
 				# Encrypts.
 				enc_letter = string.ascii_uppercase[mes_ind+shift]
