@@ -67,8 +67,7 @@ def Main():
 
 	# Getting our shift value to be between 0 and 26.
 	if shift > 26:
-		n = math.floor(shift/26)
-		shift = shift - 26 * n
+		shift = shift - 26 * (shift // 26)
 
 	# Removes punctuation from the message.
 	# This should make it harder for someone to decode, but the message should
