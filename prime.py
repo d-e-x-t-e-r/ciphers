@@ -280,16 +280,14 @@ def test_D(n, k=10):
 	return True, steps, k
 
 
-
-
 # Uncomment to call any test
-#call_test(test_D, range_max=0, single_test_num=760687280526755969, num_executions=1, k=500)
+#call_test(test_D, range_max=0, single_test_num=13, num_executions=1, k=50)
 
 # Uncomment for list a primes
 #print(sieve(65000))
 
 # Uncomment for a large prime number
-#large_prime = large_prime(60, 10000000)
+#large_prime = large_prime(50, 100000)
 
 
 
