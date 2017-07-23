@@ -8,4 +8,4 @@ I try to make everything as clear and concise as possible, with well-commented c
     - One Time Pad
     
 #### Other Material:
-    - prime.py: A simple program exploring some of the basic methods of finding prime numbers, including a Fermat test and a Seive of Eratosthenes.
+    - prime.py: A simple program exploring some of the basic methods of finding prime numbers, including a Fermat test and a Sieve of Eratosthenes.
