@@ -160,7 +160,8 @@ def fast_modulo(n, power, modulus):
 
 def large_prime(bit_size=50, attempts=10000):
 	""" This function generates a very large random number, and uses test_D to 
-	check for primality.
+	check for primality. It is not optimized and there exist much better
+	algorithms for very large bit sizes.
 
 	Input: bit_size - the number of bits you would like the large prime to have
 		   attempts - the number of random numbers to check for primality (may
