@@ -158,7 +158,7 @@ def fast_modulo(n, power, modulus):
 
 	return remainder
 
-def large_prime(bit_size=50, attempts=10000):
+def large_prime(bit_size=30, attempts=1000000):
 	""" This function generates a very large random number, and uses test_D to 
 	check for primality. It is not optimized and there exist much better
 	algorithms for very large bit sizes.
@@ -167,13 +167,13 @@ def large_prime(bit_size=50, attempts=10000):
 		   attempts - the number of random numbers to check for primality (may
 		   			  need to be a higher number to find a prime)
 	"""
-	large_rand = 0
 
 	for i in range(attempts):
+		large_rand = 0
 		while large_rand % 2 == 0:
 			large_rand = secrets.randbits(bit_size)
 
-		prime, steps, k = test_D(large_rand, k=400)
+		prime, steps, k = test_D(large_rand, k=500)
 
 		if prime == True:
 			print("Found prime:", large_rand)
